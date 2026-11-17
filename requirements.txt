@@ -1,0 +1,13 @@
+streamlit>=1.50
+pandas>=2.2
+plotly>=5.24
+sqlalchemy>=2.0
+pydantic>=2.7
+python-dotenv>=1.0
+requests>=2.32
+pytest>=8.0
+
+# Driver do banco: instale apenas o do seu banco, quando chegar a etapa de integração.
+# pyodbc>=5.1            # SQL Server (requer também o "ODBC Driver 18 for SQL Server" no SO)
+# psycopg2-binary>=2.9   # PostgreSQL
+# pymysql>=1.1           # MySQL / MariaDB
